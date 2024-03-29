@@ -1,0 +1,15 @@
+.root {
+  height: 100%;
+  min-height: 100%;
+  min-width: 100%;
+  width: 100%;
+  flex-direction: column;
+  box-sizing: border-box;
+  display: flex;
+
+  .main {
+    margin: 10px 10px 10px 10px;
+    flex: 1 1 1e-9px;
+    box-sizing: border-box;
+  }
+}
